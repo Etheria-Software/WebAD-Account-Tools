@@ -1,0 +1,46 @@
+#sidebar { 
+  background:                     #000000;
+  color:                          #ffffff;
+  text-align:center;
+  width: 136px; 
+  position: fixed; 
+  margin-left: 0px;
+  margin-top: 90px;
+  padding-left: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px; 
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0 
+}
+#sidebaradmin {
+  background:                     #29ff29;
+  color:                          #000000;
+  text-align:center;
+  width: 136px;
+  position: fixed;
+  margin-left: 0px;
+  margin-top: 60px;
+  padding-left: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0
+}
+#sidebarlockedout {
+  background:                     #cc2222;
+  color:                          #000000;
+  text-align:center;
+  width: 136px;
+  position: fixed;
+  margin-left: 0px;
+  margin-top: 290px;
+  padding-left: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0
+}
+

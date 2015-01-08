@@ -1,0 +1,15 @@
+Versions
+0.1 (pre-Alpher) -- inital build
+0.2 (pre-Alpher) -- added page loader module to allow easy adding of pages to the system without further cluttering the main code set
+0.3 (pre-Alpher) -- added etheria config loader - custom build
+0.4 (pre-Alpher) -- password changing now works/fully armed inc error report back from AD 
+0.6(pre-Alpher) -- added crypto driver module to encode secret data stored in AD
+1.0 (RC 1) -- first RC - includes email notification and filtering of recovery questions for obvious things that should not be in them ie username etc.
+1.2 (RC 2) -- added page load delay for updating info in AD (some times AD had not updated by the time the page tryed to read it again), added instructions/info notes to pages, made banner stay popped out onec you login.
+1.3.b (RC 3) -- moved combined unlock and reset pages, added unlock state indicatior to unlock/reset page
+1.4.b (RC 4) -- added ie8 compatablity patch (page now reacts/appears almost the same for old browsers as it does for new)
+1.4.b.1      -- added multi key cyper encoding (each Q&A is now coded to user and master key)
+
+
+Bugs
+no known ones at the moment

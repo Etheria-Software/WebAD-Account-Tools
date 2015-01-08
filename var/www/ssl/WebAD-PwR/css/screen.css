@@ -1,0 +1,146 @@
+
+	body {
+		background:			#1a1a1a;
+		color:				#fff;
+		font-family:		helvetica, arial, sans-serif;
+		font-size:			62.5%;
+		line-height:		2.1em;
+		margin:				0;
+		padding:			0;	
+	}
+	
+	a {
+		color:				#FE9659;	
+	}
+	
+	header, article, footer {
+		margin:				0;
+		padding:			0;
+		display:			block;
+		width:				960px;
+		margin:				auto;
+		box-shadow:			0px 0px 10px #000;
+		background:			#000;
+		font-size:			1.2em;
+	}
+	
+	nav {
+		position:			relative;
+		border-bottom:		2px solid #fe9758;
+		background:			#000;
+		color:				#fe9758;	
+		height: 			50px;
+		display: 			block; 
+		box-shadow:			0px 0px 10px #000;
+		z-index: 			1; 
+	}
+	
+	
+	nav ul {
+		position:			relative;
+		margin:				0;
+		padding:			0;
+		text-align:			right;
+		z-index:			100;
+		background:			#000;
+		padding-right:		100px;
+	}
+	
+	nav ul li {
+		list-style:			none;
+		margin:				0;
+		padding:			5px 10px;
+		display:			inline-block;
+		line-height:		35px;
+		z-index:			100;
+	}
+	
+	nav ul li a {
+		text-decoration:	none;
+		font-size:			1.2em;	
+		color:				#fe9758;
+		z-index:			100;
+	}
+	
+	nav ul li a.active, nav ul li a:hover {
+		color:				#fff;
+	}
+	
+	nav ul hdl{
+		float:				left;
+		padding:			0;
+		color:				#FFF;
+		text-decoration:		bold;
+		font-size:			1.5em;
+		}
+	nav ul hdr{
+		float:				right;
+		padding:			0;
+		color:				#FFF;
+		padding-left:			80px;
+		text-decoration:		bold;
+		font-size:			0.9em;
+		}
+	
+	nav #handle {
+		width:				20px;
+		height:				20px;
+		border-radius:		10px;
+		position:			absolute;
+		top:				40px;
+		left:				50%;
+		margin-left:		-10px;
+		background:			#000;
+		z-index:			1;
+	}
+	
+	nav #handle .downarrow {
+		border:				5px solid transparent;		
+		border-top:			8px solid #FE9658;
+		position:			absolute;
+		left:				5px;
+		bottom:				0px;
+	}
+	
+	
+	
+	.lastword {
+		clear:				both;
+	}
+	
+	h1 {
+		color:				#FFF;
+		padding:			20px;
+		text-decoration:                none;
+	}
+	
+	article {
+		padding-top:		40px;
+		min-height:			500px;
+	}
+	
+	article section {
+		width:				263px;
+		background:			transparent url(boxshine.jpg) repeat-x bottom left;
+		min-height:			200px;
+		border-right:		1px solid #1a1a1a;
+		float:				left;
+		margin-left:		10px;
+		padding:			20px;
+	}
+	
+	
+	footer {
+		padding:			20px;
+		width:				920px;
+		color:				#999;
+	}
+	footer fl {
+		float:				left;
+		font-size:                      0.9em;
+		
+	}
+	footer fr{
+		float:				right;		
+		font-size:                      0.6em;
+	}

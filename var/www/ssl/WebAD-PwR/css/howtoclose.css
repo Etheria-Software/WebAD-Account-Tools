@@ -1,0 +1,20 @@
+#howtoclose { 
+  font-size: 1.5em;
+  background:                     #006000;
+  color:                          #ffffff;
+  text-align:center;
+  right: 0px;
+  top: -20px;
+  width: 160px; 
+  position: fixed; 
+  margin-left: 0px;
+  margin-top: 90px;
+  padding-left: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px; 
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4), inset 0 1px 0; 
+  behavior: url(/SSACCTT/3rdPcomponents/css3pie/PIE.htc);
+}
+
